@@ -29,7 +29,9 @@
 
     <div class="container flex animate-up delay-2">
       <main>
-        <form id="form-job">
+        <form id="form-job" 
+        action="/job" 
+        method="POST">
           <fieldset>
             <legend>Dados do Job</legend>
             <div class="separator light"></div>
@@ -41,7 +43,7 @@
 
             <div class="input-group">
               <div class="input-wrapper">
-                <label for="daily-hours">Quantas horas <br/>
+                <label for="daily-hours">Quantas horas <br/> 
                   por dia vai dedicar ao job?</label>
                 <input 
                   type="number"
