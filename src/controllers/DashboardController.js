@@ -25,7 +25,7 @@ module.exports = {
       statusCount[status] += 1;
 
       // total de horas por dia de cada job em progresso
-      jobTotalHours = status = 'progress' ? jobTotalHours + Number(job['daily-hours']) : jobTotalHours
+      jobTotalHours = status === 'progress' ? jobTotalHours + Number(job['daily-hours']) : jobTotalHours
      
       return {
         ...job,
