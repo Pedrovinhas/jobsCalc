@@ -29,13 +29,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- NodeJS
-- EJS
-- Express
-- SQLite
+- [X] HTML
+- [X] CSS
+- [X] JavaScript
+- [X] NodeJS
+- [X] EJS
+- [X] Express
+- [X] SQLite
 
 ## 💻 Projeto
 
